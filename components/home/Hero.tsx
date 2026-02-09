@@ -1,3 +1,4 @@
+import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import Typewriter from "@/components/Typewriter";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
@@ -14,6 +15,12 @@ export default function Hero() {
 
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-24 text-center">
+      <div className="mb-6 flex justify-center">
+        <AnimatedBorderButton>
+          ✨ {t("hero.badge")} →
+        </AnimatedBorderButton>
+      </div>
+
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl dark:text-gray-200 text-center leading-tight">
         {/* Línea 1 */}
         <span className="block">
