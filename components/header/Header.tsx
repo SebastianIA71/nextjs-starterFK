@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="py-2 px-6 backdrop-blur-md sticky top-0 z-50">
-      <nav className="flex justify-between items-center w-full mx-auto">
+      <nav className="flex justify-between items-center w-full mx-auto font-ui text-sm font-medium tracking-tight">
         <div className="flex items-center space-x-6 md:space-x-12">
           <I18nLink
             href="/"

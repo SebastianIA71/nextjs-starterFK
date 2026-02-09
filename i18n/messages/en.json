@@ -109,11 +109,25 @@
       "subscribed": "Subscription successful! Thank you for your attention."
     }
   },
+
   "Home": {
-    "title": "Next.js Starter",
-    "tagLine": "Multilingual Next.js 16 Starter",
-    "description": "A multilingual Next.js 16 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation."
+  "title": "Next.js ddStarter",
+  "tagLine": "Multilingual Next.js 16 Starter",
+  "description": "A structured approach to innovation and automation, designed to improve organizational efficiency through contrast, optimization, rationalization, and results-driven insight.",
+  "hero": {
+  "line1": "Innovation & Automation",
+  "line2": "For",
+  "typewriterWords": [
+      "Contrast",
+      "Optimization",
+      "Rationalization",
+      "Efficiency"
+    ],
+    "description": "AAAADD multilingual Next.js 16 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation."
+  }
   },
+
+
   "Blog": {
     "title": "Blog Posts",
     "description": "A list of blog posts"

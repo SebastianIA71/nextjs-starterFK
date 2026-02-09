@@ -1,3 +1,13 @@
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+
+
 import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAdsense from "@/app/GoogleAdsense";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
@@ -68,11 +78,11 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale || DEFAULT_LOCALE} suppressHydrationWarning>
+    <html lang={locale || DEFAULT_LOCALE} className={inter.variable} suppressHydrationWarning>
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background flex flex-col font-sans antialiased"
+          "min-h-screen bg-background flex flex-col antialiased"
         )}
       >
         <NextIntlClientProvider messages={messages}>

@@ -24,20 +24,20 @@ export default function MobileMenu() {
   const headerLinks: HeaderLink[] = tHeader.raw("links");
 
   return (
-    <div className="flex items-center gap-1 md:hidden">
+    <div className="flex items-center gap-1 md:hidden font-ui">
       <LocaleSwitcher />
       <ThemeToggle />
       <DropdownMenu>
         <DropdownMenuTrigger className="p-2">
           <Menu className="h-5 w-5" />
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-64">
+        <DropdownMenuContent align="end" className="w-64" font-ui text-sm>
           <DropdownMenuLabel>
             <I18nLink
               href="/"
               title={t("title")}
               prefetch={true}
-              className="flex items-center space-x-1 font-bold"
+              className="flex items-center space-x-1 font-semibold tracking-tight"
             >
               <Image
                 alt={t("title")}
