@@ -20,14 +20,24 @@ const Header = () => {
             prefetch={false}
             className="flex items-center space-x-1 font-bold"
           >
-            <Image
-              alt={siteConfig.name}
-              src="/logo.svg"
-              className="w-auto h-8"
-              width={506}
-              height={205}
-            />
-            <span className="text-gray-800 dark:text-gray-200">
+        <Image
+          alt={siteConfig.name}
+          src="/logo-light.svg"
+          className="w-auto h-6 block dark:hidden"
+          width={506}
+          height={205}
+          priority
+        />
+
+        <Image
+          alt={siteConfig.name}
+          src="/logo-dark.svg"
+          className="w-auto h-6 hidden dark:block"
+          width={506}
+          height={205}
+          priority
+        />            
+        <span className="text-gray-800 dark:text-gray-200">
               {t("title")}
             </span>
           </I18nLink>

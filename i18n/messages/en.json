@@ -1,165 +1,150 @@
 {
   "LanguageDetection": {
     "title": "Language Suggestion",
-    "description": "We noticed your browser language differs from the current site language. You can switch languages anytime.",
+    "description": "IAXCORE operates in multiple languages to support international consulting and AI initiatives. You can switch languages anytime.",
     "countdown": "Closing in {countdown} seconds",
     "switchTo": "Switch to"
   },
   "Header": {
     "links": [
       {
-        "name": "Bluochasqui",
+        "name": "Services",
+        "href": "/services"
+      },
+      {
+        "name": "Case Studies",
+        "href": "/case-studies"
+      },
+      {
+        "name": "Insights",
         "href": "/blog"
       },
       {
-        "name": "SSAbioiiout",
-        "href": "/about"
-      },
-      {
-        "name": "Source Code",
-        "href": "https://github.com/weijunext/nextjs-starter",
-        "target": "_blank",
-        "rel": "noopener noreferrer nofollow"
-      },
-      {
-        "name": "Pro Version",
-        "href": "https://nexty.dev",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
+        "name": "Contact",
+        "href": "/contact"
       }
     ]
   },
   "Footer": {
-    "Copyright": "Copyright © {year} {name} All rights reserved.",
+    "Copyright": "Copyright © {year} iaxcore. Innovation & AI for Consulting & Reporting. All rights reserved.",
     "PrivacyPolicy": "Privacy Policy",
     "TermsOfService": "Terms of Service",
     "Links": {
       "groups": [
         {
-          "title": "Languages",
+          "title": "Company",
           "links": [
             {
-              "href": "/en",
-              "name": "English",
-              "useA": true
+              "href": "/about",
+              "name": "About IAXCORE",
+              "useA": false
             },
             {
-              "href": "/zh",
-              "name": "中文",
-              "useA": true
+              "href": "/methodology",
+              "name": "Methodology",
+              "useA": false
             },
             {
-              "href": "/ja",
-              "name": "日本語",
-              "useA": true
+              "href": "/approach",
+              "name": "Strategic Approach",
+              "useA": false
             }
           ]
         },
         {
-          "title": "Open Source",
+          "title": "Expertise",
           "links": [
             {
-              "href": "https://github.com/weijunext/nextjs-starter",
-              "name": "Next.js Starter",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
+              "href": "/services/ai-strategy",
+              "name": "AI Strategy & Governance"
             },
             {
-              "href": "https://github.com/weijunext/landing-page-boilerplate",
-              "name": "Landing Page Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
+              "href": "/services/automation",
+              "name": "Process Automation"
             },
             {
-              "href": "https://github.com/weijunext/weekly-boilerplate",
-              "name": "Blog Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
+              "href": "/services/reporting",
+              "name": "Advanced Reporting & Analytics"
             }
           ]
         },
         {
-          "title": "Other Products",
+          "title": "Focus Areas",
           "links": [
             {
-              "href": "https://nexty.dev/",
-              "name": "Nexty - SaaS Template",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
+              "href": "/focus/cost-optimization",
+              "name": "Cost Optimization & Efficiency"
             },
             {
-              "href": "https://myogimage.com/",
-              "name": "OG Image Generator",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
+              "href": "/focus/digital-transformation",
+              "name": "Digital Transformation"
             }
           ]
         }
       ]
     },
     "Newsletter": {
-      "title": "Subscribe to our newsletter",
-      "description": "Get the latest news and updates from Next.js Starter",
+      "title": "Stay Ahead with Strategic AI Insights",
+      "description": "Receive structured insights on innovation, automation, and AI-driven decision making.",
       "defaultErrorMessage": "Please enter a valid email address",
       "successMessage": "Subscription successful",
       "errorMessage": "Subscription failed",
       "errorMessage2": "Subscription failed. Please try again later.",
       "subscribe": "Subscribe",
       "subscribing": "Subscribing...",
-      "subscribed": "Subscription successful! Thank you for your attention."
+      "subscribed": "Subscription successful! Thank you for your interest in IAXCORE."
     }
   },
 
   "Home": {
-  "title": "",
-  "tagLine": "Multilingual Next.js 16 Starter",
-  "description": "A structured approach to innovation and automation, designed to improve organizational efficiency through contrast, optimization, rationalization, and results-driven insight.",
-  "hero": {
-  "badge": "Your AI Solution",  
-  "line1": "Innovation & Automation",
-  "line2": "For",
-  "typewriterWords": [
-      "Contrast",
-      "Optimization",
-      "Rationalization",
-      "Efficiency"
-    ],
-    "description": "AAAADD multilingual Next.js 16 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation."
-  }
+    "title": "",
+    "tagLine": "Innovation & AI for Consulting & Reporting",
+    "description": "IAXCORE delivers structured innovation and applied artificial intelligence to improve decision-making, optimize costs, rationalize processes, and generate measurable business results.",
+    "hero": {
+      "badge": "Strategic AI & Automation",
+      "line1": "Innovation & AI",
+      "line2": "Applied to",
+      "typewriterWords": [
+        "Consulting",
+        "Optimization",
+        "Rationalization",
+        "Reporting"
+      ],
+      "description": "A strategic framework that integrates artificial intelligence, automation, and advanced analytics to transform organizations through contrast analysis, operational optimization, and results-driven insight."
+    }
   },
-
 
   "Blog": {
-    "title": "Blog Posts",
-    "description": "A list of blog posts"
+    "title": "Insights & Analysis",
+    "description": "Strategic perspectives on AI, automation, governance, cost control, and digital transformation."
   },
   "About": {
-    "title": "About",
-    "description": "About the site"
+    "title": "About IAXCORE",
+    "description": "IAXCORE is a strategic initiative focused on applying artificial intelligence and automation to consulting and reporting environments, enabling structured decision-making and sustainable efficiency."
   },
   "TermsOfService": {
     "title": "Terms of Service",
-    "description": "Terms of Service"
+    "description": "Terms governing the use of IAXCORE services and digital resources."
   },
   "PrivacyPolicy": {
     "title": "Privacy Policy",
-    "description": "Privacy Policy"
+    "description": "How IAXCORE manages and protects data in accordance with regulatory and governance standards."
   },
   "Showcase": {
-    "title": "Built with This Starter",
-    "description": "Discover amazing products and websites built using this Next.js starter template.",
-    "visitSite": "Visit site"
+    "title": "Applied Innovation",
+    "description": "Selected initiatives and structured implementations where AI and automation have delivered measurable organizational impact.",
+    "visitSite": "View Case"
   },
   "Submission": {
-    "badge": "Get Featured",
-    "title": "Submit Your Product",
-    "description": "Built something awesome with this starter? Share your product with our community and get featured on our showcase.",
-    "productNameLabel": "Product Name",
-    "productNamePlaceholder": "My Awesome Project",
-    "productUrlLabel": "Product URL",
-    "submit": "Submit Product",
+    "badge": "Collaborate",
+    "title": "Propose a Strategic Initiative",
+    "description": "If your organization is exploring structured AI adoption, automation, or cost optimization, share your proposal and explore collaboration opportunities.",
+    "productNameLabel": "Organization / Initiative Name",
+    "productNamePlaceholder": "AI Transformation Initiative",
+    "productUrlLabel": "Website / Reference URL",
+    "submit": "Submit Proposal",
     "submitting": "Submitting...",
-    "successMessage": "Thank you! Your submission has been received. We'll review it shortly.",
-    "errorMessage": "Something went wrong. Please try again."
+    "successMessage": "Thank you. Your proposal has been received and will be reviewed strategically.",
+    "errorMessage": "An error occurred. Please try again."
   }
 }

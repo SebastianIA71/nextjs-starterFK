@@ -20,7 +20,7 @@ export default function Hero() {
 
     <FloatingBadges />
 
-    <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-24 text-center">
+    <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 text-center">
 
       <div className="mb-6 flex justify-center">
         <AnimatedBorderButton>

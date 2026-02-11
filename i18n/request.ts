@@ -7,10 +7,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   if (locale?.startsWith('zh')) {
     locale = 'zh';
-  } else if (locale?.startsWith('ja')) {
-    locale = 'ja';
+  } else if (locale?.startsWith('ca')) {
+    locale = 'ca';
+  } else if (locale?.startsWith('es')) {
+    locale = 'es';
   } else {
-    locale = 'en';
+    locale = routing.defaultLocale;
   }
 
   // Ensure that a valid locale is used
