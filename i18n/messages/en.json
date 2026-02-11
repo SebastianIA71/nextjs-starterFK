@@ -8,11 +8,11 @@
   "Header": {
     "links": [
       {
-        "name": "Bluoggi",
+        "name": "Bluochasqui",
         "href": "/blog"
       },
       {
-        "name": "Abioiiout",
+        "name": "SSAbioiiout",
         "href": "/about"
       },
       {
@@ -111,7 +111,7 @@
   },
 
   "Home": {
-  "title": "Next.js ddStarter",
+  "title": "",
   "tagLine": "Multilingual Next.js 16 Starter",
   "description": "A structured approach to innovation and automation, designed to improve organizational efficiency through contrast, optimization, rationalization, and results-driven insight.",
   "hero": {

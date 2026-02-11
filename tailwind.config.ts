@@ -70,26 +70,26 @@ const config = {
       },
       keyframes: {
         'accordion-down': {
-          from: {
-            height: '0'
-          },
-          to: {
-            height: 'var(--radix-accordion-content-height)'
-          }
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' },
         },
         'accordion-up': {
-          from: {
-            height: 'var(--radix-accordion-content-height)'
-          },
-          to: {
-            height: '0'
-          }
-        }
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' },
+        },
+        drift: {
+          "0%": { transform: "translate3d(0,0,0)" },
+          "50%": { transform: "translate3d(58px,-64px,0)" },
+          "100%": { transform: "translate3d(0,0,0)" },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'spin-slow': 'spin 6s linear infinite'
+        'spin-slow': 'spin 6s linear infinite',
+        drift: 'drift 14s ease-in-out infinite',
+        'drift-2': 'drift 18s ease-in-out infinite',
+        'drift-3': 'drift 22s ease-in-out infinite'
       }
     }
   },
